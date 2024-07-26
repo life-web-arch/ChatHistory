@@ -535,7 +535,7 @@ def index():
     error_message = ''
     if request.method == 'POST':
         password = request.form.get('password')
-        if password != 'expected_password':  # Replace 'expected_password' with your actual password
+        if password != '217':  # Replace 'expected_password' with your actual password
             error_message = 'Incorrect password'
         else:
             return redirect(url_for('resources_page'))
