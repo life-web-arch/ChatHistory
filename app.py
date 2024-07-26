@@ -549,3 +549,5 @@ def resources_page():
 def videos():
     return render_template_string(VIDEOS_HTML)
 
+if __name__ == '__main__':
+    app.run(debug=True)
